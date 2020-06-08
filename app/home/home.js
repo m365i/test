@@ -30,7 +30,7 @@ homeModule.config([
                     $scope.downloadedFiles = {val: 0};
                     $scope.totalFiles = {val: 0};
 
-                    var templateUrl = "https?://github.com/.+/.+";
+                    var templateUrl = "^https?:\/\/github.com\/CodingTrain\/website\/.+";
                     var downloadUrlInfix = "#/home?url=";
                     var downloadUrlPrefix = "https://minhaskamal.github.io/DownGit/"+downloadUrlInfix;
 
@@ -52,7 +52,7 @@ homeModule.config([
                         downGitService.downloadZippedFiles(parameter, progress, toastr);
 
                     } else if ($scope.url != "") {
-                        toastr.warning("Invalid URL!", {iconClass: 'toast-down'});
+                        toastr.warning("Invalid URL! Must begin with https://github.com/CodingTrain/website/", {iconClass: 'toast-down'});
                     }
 
                     $scope.catchEnter = function(keyEvent) {
