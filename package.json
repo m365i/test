@@ -1,0 +1,30 @@
+{
+  "name": "downgit",
+  "version": "1.0.0",
+  "description": "<h1> <img src=\"https://github.com/MinhasKamal/DownGit/raw/master/res/images/downgit.png\" width=\"20\" height=auto /> DownGit </h1>",
+  "main": "test.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/m365i/DownGit.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/m365i/DownGit/issues"
+  },
+  "homepage": "https://github.com/m365i/DownGit#readme",
+  "dependencies": {},
+  "devDependencies": {
+    "eslint": "^7.28.0",
+    "eslint-config-standard": "^16.0.3",
+    "eslint-plugin-import": "^2.23.4",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-promise": "^5.1.0"
+  }
+}
